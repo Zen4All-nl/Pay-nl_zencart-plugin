@@ -89,7 +89,7 @@ class paynl {
   {
     return array(
       'id' => $this->code,
-            'module' => '<img src="https://admin.pay.nl/images/payment_profiles/' . $this->payment_method_id . '.gif"> ' . $this->public_title
+      'module' => '<img src="https://admin.pay.nl/images/payment_profiles/' . $this->payment_method_id . '.gif"> ' . $this->public_title
     );
   }
 

@@ -54,7 +54,7 @@ switch ($state) {
     echo "TRUE|Ignore pending";
     ob_flush();
     updatePaynlTransaction($transactionId, $state);
-    die;
+    die();
     break;
   case "PAID":
     if (!$isExchange) {
